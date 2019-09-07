@@ -1,0 +1,67 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    background-color: #f7f7f7;
+}
+
+#wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    
+}
+
+#nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+#nav a{
+    text-decoration: none;
+    font-size: 1.1em;
+    color: black;
+}
+
+#nav a:hover {
+    text-decoration: underline;
+}
+
+.banner {
+    background-color: #ffee00;
+    line-height: 200%;
+    text-align: center;
+    text-shadow: 3px 3px 5px #ccc;
+}
+
+.title {
+    background-color: #ffee00;
+    text-align: center;
+    line-height: 150%;
+}
+
+
+.colorful {
+    background-image: repeating-linear-gradient(to left, violet, indigo, blue, green, orange, red);
+  -webkit-background-clip: text;
+  background-size: 800% 800%;
+  color: transparent;
+  animation: rainbow 8s ease infinite;
+}
+
+.service-list li {
+    list-style: none;
+}
+
+@keyframes rainbow {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 50% 25%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
