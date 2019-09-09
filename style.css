@@ -1,15 +1,15 @@
-html, body {
+html,
+body {
     width: 100%;
     height: 100%;
     overflow-x: hidden;
-    background-color: #f7f7f7;
 }
 
 #wrapper {
     margin-left: auto;
     margin-right: auto;
     width: 80%;
-    
+
 }
 
 #nav {
@@ -17,7 +17,7 @@ html, body {
     justify-content: space-between;
 }
 
-#nav a{
+#nav a {
     text-decoration: none;
     font-size: 1.1em;
     color: black;
@@ -34,6 +34,20 @@ html, body {
     text-shadow: 3px 3px 5px #ccc;
 }
 
+.banner-image {
+    width: 100%;
+    height: auto;
+}
+
+.link-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    height: auto;
+
+}
+
 .title {
     background-color: #ffee00;
     text-align: center;
@@ -43,10 +57,10 @@ html, body {
 
 .colorful {
     background-image: repeating-linear-gradient(to left, violet, indigo, blue, green, orange, red);
-  -webkit-background-clip: text;
-  background-size: 800% 800%;
-  color: transparent;
-  animation: rainbow 8s ease infinite;
+    -webkit-background-clip: text;
+    background-size: 800% 800%;
+    color: transparent;
+    animation: rainbow 8s ease infinite;
 }
 
 .service-list li {
@@ -57,11 +71,12 @@ html, body {
     0% {
         background-position: 0% 50%;
     }
+
     50% {
         background-position: 50% 25%;
     }
+
     100% {
         background-position: 0% 50%;
     }
 }
-
