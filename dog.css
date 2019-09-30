@@ -53,6 +53,7 @@ body {
 .banner-image {
     width: 100%;
     height: auto;
+    max-height: 50vh;
 }
 
 .link-image {
@@ -83,13 +84,34 @@ body {
     padding-left: 2vw;
 }
 
-.container p {
+.container p, form {
     position: relative;
     margin-left: 3vh;
+    font-size: 1.2em;
+    line-height: 1.5em;
 }
 
-.service-list li {
-    list-style: none;
+.box {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.submit {
+    background: #00a676;
+    border: none;
+    color: #ebebeb;
+    height: 1.5em;
+    border-radius: 3px;
+}
+
+.submit:hover {
+    background: #45f0df;
+    color: #1f0318;
+    cursor: pointer;
 }
 
 #footer {
